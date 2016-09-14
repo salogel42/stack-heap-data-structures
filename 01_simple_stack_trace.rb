@@ -2,7 +2,7 @@ require 'pry'
 # gem install pry-byebug
 
 def do_stuff(thing, other_thing)
-  binding.pry
+  #  binding.pry
   thing.upcase!
   other_thing = "ha ha"
   puts thing
