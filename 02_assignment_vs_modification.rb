@@ -11,7 +11,6 @@ def bar(cats, hat)
   puts "in bar"
   p cats
   p hat
-  p stuff
 end
 
 def foo()
@@ -27,7 +26,5 @@ def foo()
 end
 
 # What output do you expect?
-afjoisad = foo()
-p afjoisad
 hat = foo()
-hat = foo()
+p hat
